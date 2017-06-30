@@ -159,7 +159,7 @@ footer{
 
 @media screen and (min-width: 720px){
 	.home-img{
-		height: 1000px;
+		height: 805px;
 		background-position: center;
 	}
 
@@ -188,7 +188,38 @@ footer{
 	}
 
 	.home-img{
-		height: 1000px;
+		height: 1200px;
+		background-position: center;
+	}
+
+	.name{
+	font-size: 3em;
+	color: white;
+	margin-top:0;
+	margin-bottom:0;
+	text-shadow: -2px 2px black;
+}
+
+	#nav-content li{
+	text-align: left;
+	display: inline-block;
+	text-align: center;
+	margin:10px 30px;
+	font-size: 1.5em;
+
+
+}
+
+}
+
+@media screen and (min-width: 1200px){
+
+	.wrapper{
+		display: calc(100vh-55px);
+	}
+
+	.home-img{
+		height: 805px;
 		background-position: center;
 	}
 
