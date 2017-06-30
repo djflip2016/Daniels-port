@@ -242,9 +242,11 @@ footer{
 	.main-content p{
 		text-align: left;
 		font-size: 1.3em;
-		line-height: 1.2em;
-		margin-top: 150px;
 
+	}
+
+	.top{
+		margin-top: 100px;
 	}
 
 
