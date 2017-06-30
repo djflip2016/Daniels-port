@@ -76,7 +76,23 @@ a:hover{
 
 /******** CONTACT INFORMATION ********/
 
+.contact{
+	text-align: center;
+}
 
+.contact-items{
+	display: inline;
+}
+
+.twitter, .linkedin, .gmail{
+	height: 150px;
+	width: 150px;
+	margin: 20px;
+}
+
+p{
+	font-weight: bolder;
+}
 
 /******** FOOTER ********/
 
