@@ -80,6 +80,10 @@ a:hover{
 	text-align: center;
 }
 
+h2{
+	font-size: 3em;
+}
+
 .contact-items{
 	display: inline;
 }
