@@ -75,8 +75,24 @@ a:hover{
 
 
 /******** ABOUT CONTENT ********/
+.main-content{
+	text-align: center;
+}
 
+.me{
+	height: 200px;
+	width: 200px;
+}
 
+.main-content p{
+	padding: 10px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.hotlink{
+	color:blue;
+}
 
 /******** FOOTER ********/
 
@@ -99,10 +115,7 @@ footer{
 
 
 @media screen and (min-width: 490px){
-	.home-img{
-		height: 900px;
-	}
-
+	
 	.name{
 	font-size: 3em;
 	color: white;
@@ -120,6 +133,19 @@ footer{
 
 
 }
+
+.me{
+	height: 300px;
+	width: 300px;
+}
+
+.main-content p{
+	padding: 10px;
+	text-align: left;
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
 
 
 
@@ -189,7 +215,7 @@ footer{
 	margin-top:0;
 	margin-bottom:0;
 	text-shadow: -2px 2px black;
-}
+	}
 
 	#nav-content li{
 	text-align: left;
@@ -199,7 +225,31 @@ footer{
 	font-size: 1.5em;
 
 
-}
+	}
+
+
+	.main-content{
+		text-align: center;
+	}
+
+	.me{
+		height: 500px;
+		width: 500px;
+		float:left;
+		margin: 100px;
+	}
+
+	.main-content p{
+		text-align: left;
+		font-size: 1.3em;
+		line-height: 1.2em;
+		margin-top: 150px;
+
+
+	}
+
+
+
 
 }
 
